@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MySuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test1(failed)">
+    <parameter name="TestingID" value="example1@gmail.com"/>
+    <classes>
+      <class name="com.Pkg.Parameterization">
+        <methods>
+          <include name="ClickOnForgetEmail"/>
+          <include name="ClickOnCreateAccount"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Pkg.Parameterization -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [MySuite] -->
